@@ -1,18 +1,21 @@
+/* DashboardComponent's private CSS styles */
+
 h2 {
-	text-align: center;
+  text-align: center;
 }
 
 .heroes-menu {
-	padding: 0;
-	margin: auto;
-	max-width: 1000px;
+  padding: 0;
+  margin: auto;
+  max-width: 1000px;
 
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-content: flex-start;
-	align-items: flex-start;
+  /* flexbox */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: flex-start;
 }
 
 a {
