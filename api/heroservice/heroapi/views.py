@@ -9,6 +9,7 @@ class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
     permission_class = [IsAuthenticated]
+    http_methods_names = ['get', 'post', 'delete', 'patch']
 
 class GroupViewSet(viewsets.ModelViewSet):
     queryset = Group.objects.all()
